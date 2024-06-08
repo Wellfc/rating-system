@@ -13,8 +13,8 @@ function StarRating() {
     }
 
     return (
-        <div className="star-rating">
-            <span>
+        <div className='star-rating'>
+            <div className='star'>
                 {ratingDescription.map((desc, index) => (
                     <Star
                         key={index}
@@ -22,7 +22,7 @@ function StarRating() {
                         onClick={() => updateRating(desc, index + 1)}
                     />
                 ))}
-            </span>
+            </div>
             <h2>{rating}</h2>    
         </div>
     )

@@ -1,6 +1,7 @@
 ## Rating System
 
-Hello... This is my webpage for a rating system.
+Hello... This is a React application with a star rating system and a dialog 
+using function components, props, useState hook, and React icons.
 
 
 ### DEMO
